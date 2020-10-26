@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(20,100px);
+    grid-template-rows:repeat(20,55px) ;
+}
+
+.el1 {
+    grid-column-start:1 ;
+    position: absolute;
+}
+
+.el2 {
+    background:red;
+    grid-column-start: 3;
+    grid-column-end: end;
+}
+
+.el3 {
+    background: red;
+grid-row-start: 3;
+grid-column-start: 1;
+grid-column-end: end;
+}
+
+.el4 {
+    background: red;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+.el6 {
+    background: red;
+    grid-row-start: 7;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+.el8 {
+    background: red;
+    grid-row-start: 9;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+.el10 {
+    background: red;
+    grid-row-start: 11;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+.el12 {
+    background: red;
+    grid-row-start: 13;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
