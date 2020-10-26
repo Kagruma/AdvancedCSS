@@ -4,10 +4,26 @@
 }
 .container {
     display: grid;
-    grid-template-columns: repeat(4,auto);
+     grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-template-rows:repeat(2,auto) ;
-    grid-gap: 1em;
     background-color:grey;
-    border-color: black;
+    border:3px solid black;
+    grid-column-gap: 2em;
+    
+
 }
 
+.item{
+    border-top: 1px solid #000000;
+  
+}
+
+a{
+    text-decoration: underline;
+    color: #000
+    ;
+}
+
+a:hover{
+    color:maroon;
+}
